@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.newgymbefit">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/newgymlogo1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/newgymlogo1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NewGymBeFit">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".day31" />
+        <activity android:name=".day30" />
+        <activity android:name=".day29" />
+        <activity android:name=".day28" />
+        <activity android:name=".day27" />
+        <activity android:name=".day26" />
+        <activity android:name=".day25" />
+        <activity android:name=".day24" />
+        <activity android:name=".day23" />
+        <activity android:name=".day22" />
+        <activity android:name=".day21" />
+        <activity android:name=".day20" />
+        <activity android:name=".day19" />
+        <activity android:name=".day18" />
+        <activity android:name=".day17" />
+        <activity android:name=".day16" />
+        <activity android:name=".day15" />
+        <activity android:name=".day14" />
+        <activity android:name=".day13" />
+        <activity android:name=".day12" />
+        <activity android:name=".day11" />
+        <activity android:name=".day10" />
+        <activity android:name=".day9" />
+        <activity android:name=".day8" />
+        <activity android:name=".day7" />
+        <activity android:name=".day6" />
+        <activity android:name=".day5" />
+        <activity android:name=".day4" />
+        <activity android:name=".day3" />
+        <activity android:name=".day2" />
+        <activity android:name=".day1" />
+
+    </application>
+
+</manifest>
